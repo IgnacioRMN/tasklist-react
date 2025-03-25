@@ -4,7 +4,7 @@ import { XCircle } from "react-bootstrap-icons";
 const Tarea = () => {
   return (
     <ListGroup.Item className="d-flex justify-content-between">
-      Planificar
+      planificar
       <Button variant="danger">
         <XCircle></XCircle>
       </Button>
