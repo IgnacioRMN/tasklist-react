@@ -50,7 +50,7 @@ const FormularioTarea = () => {
           <PlusCircle></PlusCircle>
         </Button>
       </Form>
-      <ListaTarea />
+      <ListaTarea listaTareas={listaTareas} />
     </section>
   );
 };
