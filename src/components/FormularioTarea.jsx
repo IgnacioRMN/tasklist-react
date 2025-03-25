@@ -1,9 +1,10 @@
 import { Button, Form } from "react-bootstrap";
 import { PlusCircle } from "react-bootstrap-icons";
+import ListaTarea from "./ListaTarea";
 
 const FormularioTarea = () => {
   return (
-    <div className="mb-4">
+    <section className="mb-4">
       <Form className="container d-flex">
         <Form.Group controlId="formTarea" className="w-100">
           <Form.Control type="text" placeholder="Ingrese una tarea" />
@@ -12,7 +13,8 @@ const FormularioTarea = () => {
           <PlusCircle></PlusCircle>
         </Button>
       </Form>
-    </div>
+      <ListaTarea  />
+    </section>
   );
 };
 

@@ -1,3 +1,13 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 .gradient-bg {
   background-color: hsla(46, 92%, 60%, 1);
   background-image: radial-gradient(circle at 96% 96%, hsla(264, 93%, 54%, 0.85) 5%, transparent 86%), radial-gradient(circle at 5% 90%, hsla(78, 71%, 68%, 1) 13%, transparent 65%), radial-gradient(circle at 57% 73%, hsla(157, 93%, 51%, 1) 3%, transparent 89%), radial-gradient(circle at 20% 4%, hsla(167, 60%, 76%, 1) 22%, transparent 56%), radial-gradient(circle at 74% 15%, hsla(173, 92%, 59%, 1) 13%, transparent 57%);
