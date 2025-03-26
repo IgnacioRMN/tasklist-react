@@ -55,7 +55,7 @@ const FormularioTarea = () => {
           <PlusCircle></PlusCircle>
         </Button>
       </Form>
-      <ListaTarea listaTareas={listaTareas} />
+      <ListaTarea listaTareas={listaTareas} borrarTarea={borrarTarea} />
     </section>
   );
 };
