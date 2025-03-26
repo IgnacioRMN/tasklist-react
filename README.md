@@ -1,12 +1,20 @@
-# React + Vite
+# Proyecto de Práctica con React
+Este es un proyecto de práctica para mejorar mis habilidades con React y varias de sus librerías más populares.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Características principales
 
-Currently, two official plugins are available:
+- ✅ Uso de componentes funcionales con React
+- 🎨 Estilizado básico con React Bootstrap
+- 🔍 Manejo de formularios y validación con React Hook Form
+- 🏷️ Uso de Props para comunicación entre componentes
+- ⚛️ Gestión de estado con useState
+- ✨ Integración de React Icons para iconos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca principal para la construcción de la interfaz
+- **React Bootstrap**: Para componentes UI pre-estilizados y responsive
+- **React Icons**: Para incorporar iconos de varias bibliotecas populares
+- **React Hook Form**: Para manejo eficiente de formularios
+- **React DOM**: Para el renderizado de componentes
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
