@@ -1,15 +1,15 @@
-import { ListGroup } from "react-bootstrap";
+import { ListGroup, Card } from "react-bootstrap";
 import Tarea from "./Tarea";
 
 const ListaTarea = ({ listaTareas, borrarTarea }) => {
   return (
-    <section className="container mt-3">
+    <Card className="list-card">
       <ListGroup>
         {listaTareas.map((tarea, posicion) => (
-          <Tarea key={posicion} tarea={tarea} borrarTarea={borrarTarea}></Tarea>
+          <Tarea key={posicion} tarea={tarea} borrarTarea={borrarTarea} />
         ))}
       </ListGroup>
-    </section>
+    </Card>
   );
 };
 

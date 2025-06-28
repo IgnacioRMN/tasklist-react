@@ -1,0 +1,94 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.tarea-fade-in {
+  animation: fadeIn 0.4s ease;
+}
+
+.tarea-fade-out {
+  animation: fadeOut 0.4s ease;
+}
+
+.form-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem 1rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-add-task {
+  font-size: 1.1rem;
+  padding: 0.5rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input.form-control {
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid #bdbdbd;
+  box-shadow: none;
+}
+
+input.form-control:focus {
+  border-color: #6f42c1;
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.15);
+}
+
+.list-group-item {
+  background: #f8fafc;
+  border-radius: 0.5rem !important;
+  margin-bottom: 0.5rem;
+  border: none;
+  font-size: 1.08rem;
+  color: #222;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.list-group-item .btn-danger {
+  border-radius: 50%;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .form-card,
+  .list-card {
+    padding: 1rem 0.5rem;
+    max-width: 98vw;
+  }
+}
